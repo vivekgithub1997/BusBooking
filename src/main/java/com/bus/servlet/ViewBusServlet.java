@@ -39,7 +39,7 @@ public class ViewBusServlet extends HttpServlet {
 			} else {
 				pw.println("<html><body>");
 				pw.println("<head>");
-				pw.println("&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<<<<<<<<<<<<<<<<<<<<< ALL BUES >>>>>>>>>>>>>>>>>>>>>>>>");
+				pw.println("&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<<<<<<<<<<<<<<<<<<<<< ALL BUSES >>>>>>>>>>>>>>>>>>>>>>>>");
 				pw.println("<table border=1 width=50% height=50%>");
 				pw.println(
 						"<tr><th>Bus-No</th><th>Bus-Name</th><th>Arr-Time</th><th>Dept-Time</th><th>FromStation</th><th>Destination</th><th>Seat</th><th>Price</th><th>Action</th><tr>");
